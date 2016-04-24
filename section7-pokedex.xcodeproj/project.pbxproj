@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C564B1C1CCC4F8A00EDA9CB /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3C564B1B1CCC4F8A00EDA9CB /* pokemon.csv */; };
 		3CD3108B1CC84DB8008260D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3108A1CC84DB8008260D2 /* AppDelegate.swift */; };
 		3CD3108D1CC84DB8008260D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3108C1CC84DB8008260D2 /* ViewController.swift */; };
 		3CD310901CC84DB8008260D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3108E1CC84DB8008260D2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C564B1B1CCC4F8A00EDA9CB /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		3CD310871CC84DB8008260D2 /* section7-pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "section7-pokedex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD3108A1CC84DB8008260D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD3108C1CC84DB8008260D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				3CD3108A1CC84DB8008260D2 /* AppDelegate.swift */,
 				3CD3108C1CC84DB8008260D2 /* ViewController.swift */,
+				3C564B1B1CCC4F8A00EDA9CB /* pokemon.csv */,
 				3CD3108E1CC84DB8008260D2 /* Main.storyboard */,
 				3CD310911CC84DB8008260D2 /* Assets.xcassets */,
 				3CD310931CC84DB8008260D2 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				3CD310951CC84DB8008260D2 /* LaunchScreen.storyboard in Resources */,
 				3CD310921CC84DB8008260D2 /* Assets.xcassets in Resources */,
+				3C564B1C1CCC4F8A00EDA9CB /* pokemon.csv in Resources */,
 				3CD310901CC84DB8008260D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				3CD3109B1CC84DB8008260D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
