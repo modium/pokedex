@@ -5,5 +5,5 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'section7-pokedex' do
-pod 'Alamofire', '~> 3.3'
+pod 'Alamofire', '~> 4.5'
 end
